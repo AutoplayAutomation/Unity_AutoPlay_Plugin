@@ -6,11 +6,11 @@ Contact:  [autoplay.automation@gmail.com](mailto:autoplay.automation@gmail.com)
 
 ## Setup
 
--   Download AutoPlay Plugin for Unity. There is two versions of plugin for NGUI and standard Unity UI widgets  [NGUI](https://github.com/AutoplayAutomation/UE4_AutoPlay_Plugin/tree/master/Plugin)
-[Standard](https://github.com/AutoplayAutomation/UE4_AutoPlay_Plugin/tree/master/Plugi)
+-   Download AutoPlay Plugin for Unity. There is two versions of plugin for NGUI and standard Unity UI widgets  [NGUI](https://github.com/AutoplayAutomation/Unity_AutoPlay_Plugin/tree/master/0.00.1/NGUI)
+[Standard](https://github.com/AutoplayAutomation/Unity_AutoPlay_Plugin/tree/master/0.00.1/Standard)
 -   Place Plugin to Assets Folder
 -   Attach plugin to any longlive gameobject or controller
- Attach in not destroyable controller  
+ Attach it in not destroyable controller  
 
 > `new  GameObject("Automation").AddComponent<AutoPlay.Unity.StartPlay>().transform.parent  =  transform.parent;`
 
@@ -25,3 +25,5 @@ DontDestroyOnLoad(new  GameObject("AutoPlayAutomation").AddComponent<AutoPlay.Un
  - Package and run game
 
 After Start game -  AutoPlay logo should be presented
+
+![logo](https://github.com/AutoplayAutomation/Unity_AutoPlay_Plugin/blob/master/Documentation/img/logo.png)
