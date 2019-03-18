@@ -1,6 +1,0 @@
-framework module AutoPlayIOS {
-  umbrella header "AutoPlayIOS.h"
-
-  export *
-  module * { export * }
-}
